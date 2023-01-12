@@ -12,3 +12,119 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+.barra-de-topo {
+  text-align: center;
+  background-color: var(----top-bar-and-footer);
+  padding: 15px;
+}
+
+#cabecalho {
+  background-image: url("./images/hero_bolo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+h1 {
+  color: var(--font-color);
+  text-align: left;
+  margin: 5rem auto 0 auto;
+  width: 50vw;
+} 
+
+.sec {
+  border: 1px solid rgb(209, 207, 207);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 5rem auto;
+  width: 50vw;
+}
+
+.sec:hover {
+  box-shadow: 4px 0px 20px -4px rgba(0,0,0,0.75);
+}
+
+h2 {
+  color: var(--font-color);
+}
+
+#sec1 ul li {
+  margin: 1rem 0 1rem 4rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(----top-bar-and-footer);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
+
+#sec2 {
+  line-height: 30px;
+  text-align: justify;
+}
+
+#sec2 ol li {
+  margin: 1rem 0 1rem 4rem;
+}
+
+#sec3 {
+  line-height: 30px;
+  text-align: justify;
+}
+
+#sec3 h2{
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(----top-bar-and-footer);
+  padding: 10px;
+  color: #fff;
+}
+
+@media(max-width: 1230px) {
+  .sec {
+    margin: 5rem 1rem;
+    width: 90vw;
+  }
+
+  h1 {
+    margin: 4rem 1rem;
+    width: 80vw;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    margin: 4rem 0 4rem 1rem;
+    width: 100vw;
+    padding: 0;
+  }
+}
+
+@media(max-width: 450px) {
+  #sec1 ul li {
+    margin: 1rem 0 1rem 2rem;
+  }
+
+  #sec2 ol li {
+    margin: 1rem 0 1rem 1.5rem;
+  }
+
+}
